@@ -43,6 +43,19 @@ By automating data gathering, the tool reduces the time needed to perform initia
 - ~50–200 MB free disk space for output (varies with event log size)  
 - If external tools are used, place them alongside the EXE (e.g., `.\Tools\...`) and reference relatively  
 
+## 🔐 Windows SmartScreen & Antivirus Warnings
+Because this tool is distributed as a **custom executable (.exe) without code signing**, Windows SmartScreen and some antivirus products may block or warn about it.  
+This is expected behavior for **new or unsigned binaries**, even if they are completely safe.  
+
+### ✅ How to Run Safely if Blocked
+- On **Windows SmartScreen**: click *More info* → *Run anyway*.  
+- On **Defender/AV**: if flagged, add the folder as a temporary exclusion (only for testing).  
+- Or run the PowerShell script version (`.ps1`) if you prefer full transparency.  
+
+⚠️ Never run tools like this on systems you do not own or have explicit permission to test.  
+
+Over time, as more people download and use the tool, SmartScreen reputation improves and fewer warnings will appear.  
+
 ## 📜 License & Disclaimer
 This tool is shared with the community for **lawful purposes only**, such as incident response, digital forensics training, or authorized system information gathering.  
 
