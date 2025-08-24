@@ -7,6 +7,11 @@ The **Greaton Triage Tool** is a lightweight and portable digital forensics util
 
 By automating data gathering, the tool reduces the time needed to perform initial assessments and ensures consistent, repeatable results. It is especially useful in live response scenarios where time is critical and no additional software installation should be performed on the target system.
 
+
+<img width="1058" height="540" alt="image" src="https://github.com/user-attachments/assets/ebfa448f-79e5-4d17-83c6-ab05408a3c6a" />
+
+
+
 ## 💡 Value
 - **Rapid Triage** – Collects valuable system information within minutes.  
 - **Non-Intrusive** – Runs directly from USB, leaving a minimal footprint.  
